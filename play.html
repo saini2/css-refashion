@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play With Css</title>
+    <link rel='stylesheet' href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+   <h2>Update CSS Variables with <span class="head">JS</span></h2>
+   <div class="controls">
+       <label for = 'spacing'>Spacing</label>
+       <input id = 'spacing' type="range" min="1" max="150" value="20" class="slider" data-sizing="px" name="spacing"/>
+       <label for = 'blur'>Blur</label>
+       <input id = 'blur' type="range" min="1" max="10" value="1" class="slider" data-sizing="px" name="blur"/>
+       <label for = 'color'>Base Color</label>
+       <input id = 'color' type="color" class="color" name = 'base' value="#efe70b"/>
+   </div>
+   <img src = './image/background.jpeg'/>
+   <div class="last">&#128155; Made by Bharti Saini</div>
+</body>
+<script src='./script.js'></script>
+
+</html>
